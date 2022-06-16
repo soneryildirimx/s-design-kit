@@ -1,0 +1,60 @@
+html,
+body {
+    font-family: $mainFamily;
+    font-weight: 400;
+    line-height: 18px;
+    color: $text;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.063rem;
+}
+
+h3 {
+    font-size: 1.425rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+h4 {
+    font-size: 1.269rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.438rem;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.313rem;
+}
+
+p, span {
+    font-size: 0.888rem;
+    font-weight: 400;
+    line-height: 1.188rem;
+
+    &.small {
+        font-size: 0.788rem;
+        line-height: 1rem;
+    }
+
+    &.x-small {
+        font-size: 0.625rem;
+        line-height: 0.813rem;
+    }
+}

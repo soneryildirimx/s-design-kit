@@ -1,0 +1,34 @@
+// Colors
+$primary: #3A36DB;
+$secondary: #FF69B4;
+$accent: #03A89E;
+$text: #06152B;
+$textLight: #99B2C6;
+$neutral: #FFFFFF;
+$background: #F1F4FA;
+$disabled: #cccccc;
+
+// Fonts
+$mainFamily: 'DM Sans', sans-serif;
+
+// @forward 'element-plus/theme-chalk/src/common/var.scss' with (
+//   $colors: (
+//     'primary': (
+//       'base': #3A36DB,
+//     ),
+//   )
+// );
+
+:root {
+  color-scheme: light;
+  --el-color-white: #ffffff;
+  --el-color-black: #000000;
+  --el-color-primary: #{$primary};
+  --el-color-success: #{$accent};
+  --el-color-warning: #e6a23c;
+  --el-color-danger: #f56c6c;
+  --el-color-info: #{$textLight};
+  --el-bg-color: #{$neutral};
+  --el-bg-color-page: #{$background};
+  // button variables
+}

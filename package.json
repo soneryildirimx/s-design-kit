@@ -5,13 +5,24 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "element-plus": "^2.2.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/vue3": "^6.4.22",
     "@vitejs/plugin-vue": "^2.3.1",
-    "vite": "^2.9.5"
+    "babel-loader": "^8.2.5",
+    "sass": "^1.51.0",
+    "vite": "^2.9.5",
+    "vue-loader": "^16.8.3"
   }
 }

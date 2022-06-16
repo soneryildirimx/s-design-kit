@@ -1,0 +1,8 @@
+// ==========================================================================
+// Font
+// ==========================================================================
+@include fontFace('DM Sans', './assets/font/DMSans-Regular', 400, normal);
+@include fontFace('DM Sans', './assets/font/DMSans-Medium', 500, normal);
+@include fontFace('DM Sans', './assets/font/DMSans-Bold', 700, normal);
+
+// @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
